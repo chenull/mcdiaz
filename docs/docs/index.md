@@ -1,17 +1,17 @@
-# Welcome to MkDocs
+# PisangCraft
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+For full documentation visit [diaz.nu](https://www.diaz.nu).
 
-## Commands
+## Web Console
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+TBD
 
-## Project layout
+## Command
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+* `/tp Semarang` - Teleport ke Semarang
+* `/summon babi` - Bikin babi
+
+## Players
+
+* `chenull` - Admin
+* `diaznurz`
