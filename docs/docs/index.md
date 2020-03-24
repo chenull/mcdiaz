@@ -11,7 +11,8 @@ TBD
 * `/tp Semarang` - Teleport ke Semarang
 * `/summon babi` - Bikin babi
 
-## Players
+## SSH user
 
 * `chenull` - Admin
 * `diaznurz`
+* `rynindi`
