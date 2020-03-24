@@ -1,0 +1,3 @@
+---
+minecraft_ver: backup2
+ansible_become: true

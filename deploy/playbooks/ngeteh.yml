@@ -1,0 +1,14 @@
+---
+- hosts: mc
+  become: yes
+  tasks:
+    - name: ngeteh
+      ping:
+    - debug:
+        msg: "{{ hostvars[inventory_hostname].ansible_os_family }}"
+    - debug:
+        msg: "{{ hostvars[inventory_hostname].ansible_distribution }}"
+#    - name: Display all variables/facts known for a host
+#      debug:
+#        var: hostvars[inventory_hostname]
+    - debug: var=minecraft_version_manifest_url

@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mcdiaz"
+version = "0.1.0"
+description = ""
+authors = ["Sayid Munawar <sayid.munawar@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+ansible = "^2.9.6"
+mkdocs = "^1.1"
+
+[tool.poetry.dev-dependencies]
+ipdb = "^0.13.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

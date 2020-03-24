@@ -1,0 +1,10 @@
+# file: production
+
+[web]
+diaz.nu
+
+[db]
+db.dot.fail
+
+[mc]
+diaz.nu

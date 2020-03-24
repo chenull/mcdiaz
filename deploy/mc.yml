@@ -1,0 +1,7 @@
+---
+# file: mc.yml
+- hosts: mc
+  roles:
+    - common
+    - java
+    - minecraft
