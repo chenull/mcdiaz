@@ -212,3 +212,6 @@ airflow/airflow.db
 airflow/*.pid
 airflow/logs/
 airflow/work/
+
+# Mac
+.DS_Store
