@@ -3,3 +3,16 @@
   assert:
     that:
       - "ansible_os_family in supported_os_families"
+
+- name: create Minecraft group
+  group:
+    state: present
+    name: "{{ minecraft_group }}"
+    system: true
+
+- name: create Minecraft user
+  user:
+    state: present
+    name: "{{ minecraft_user }}"
+    group: "{{ minecraft_group }}"
+    system: true
