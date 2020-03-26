@@ -1,0 +1,14 @@
+---
+- name: cek OS is supported
+  assert:
+    that:
+      - "ansible_os_family in supported_os_families"
+
+- name: "Write dummy file to {{ ansible_env.HOME }}/dummy.txt"
+  template:
+    src: dummy.txt
+    dest: "{{ ansible_env.HOME }}/dummy.txt"
+
+- name: debug
+  debug:
+    msg: "dummy role debug"
