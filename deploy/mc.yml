@@ -4,5 +4,5 @@
   roles:
     - common
     - java
+    - firewall
     - minecraft
-    - __dummy__
